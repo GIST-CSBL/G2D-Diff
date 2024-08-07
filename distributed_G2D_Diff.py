@@ -66,10 +66,10 @@ def main():
     samples_weight = torch.from_numpy(samples_weight)
     sampler = torch.utils.data.WeightedRandomSampler(samples_weight.type('torch.DoubleTensor'), len(samples_weight))
 
-
     ##############
-    # Data load
+    # Model load
     ##############
+  
     accelerate.utils.set_seed(42)
     batch_size = 128
     max_epochs = 5000
@@ -89,7 +89,9 @@ def main():
     total_loss = []
     
 
-
+    ##############
+    # Training
+    ##############
 
     for epoch in range(max_epochs):
         epoch_loss = []
