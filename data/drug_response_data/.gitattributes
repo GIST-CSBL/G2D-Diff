@@ -5,3 +5,7 @@ original_nci_drug_response_revised_1129.csv filter=lfs diff=lfs merge=lfs -text
 GDSC_drug2smi_0201.csv filter=lfs diff=lfs merge=lfs -text
 GDSC_drug_response_0201.csv filter=lfs diff=lfs merge=lfs -text
 latent_nci_reconstructed_1129.csv filter=lfs diff=lfs merge=lfs -text
+DC_drug_response.csv filter=lfs diff=lfs merge=lfs -text
+CC_drug2smi.csv filter=lfs diff=lfs merge=lfs -text
+CC_drug_response.csv filter=lfs diff=lfs merge=lfs -text
+DC_drug2smi.csv filter=lfs diff=lfs merge=lfs -text
