@@ -9,7 +9,7 @@ Official repository of the G2D-Diff
 > conda activate g2d_diff
  
 - Install required packages
-> pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu113
+> pip install -r requirement.txt --extra-index-url https://download.pytorch.org/whl/cu113
 
 # For training G2D-Diff
 - Single GPU
