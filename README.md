@@ -1,10 +1,12 @@
 # G2D-Diff
 Official repository of the G2D-Diff
 
-# Environment setting
-- Need Anaconda
-conda create -n g2d_diff python=3.8.10
-pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu113
+# Environment setting (Anaconda)
+- Environment Creation
+> conda create -n g2d_diff python=3.8.10
+
+- Installation required packages
+> pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu113
 
 # For training G2D-Diff
 - Single GPU
