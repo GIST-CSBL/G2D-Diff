@@ -36,7 +36,7 @@ def main():
     PREDIFINED_GENOTYPES = ['mut', 'cna', 'cnd']
 
 
-    nci_data = pd.read_csv("./data/drug_response_data/original_nci_drug_response_revised_1129.csv")
+    nci_data = pd.read_csv("./data/drug_response_data/DC_drug_response.csv")
     nci_data = nci_data.dropna()
 
     val_cell = ['EKVX_LUNG', 'SKMEL28_SKIN', 'SKOV3_OVARY', 'NCIH226_LUNG', 'OVCAR4_OVARY']
@@ -51,7 +51,7 @@ def main():
     cell2mut = pd.read_csv("./data/drug_response_data/original_cell2mut.csv", index_col = 0).rename(columns={'index':'ccle_name'})
     cell2cna = pd.read_csv("./data/drug_response_data/original_cell2cna.csv", index_col = 0).rename(columns={'index':'ccle_name'})
     cell2cnd = pd.read_csv("./data/drug_response_data/original_cell2cnd.csv", index_col = 0).rename(columns={'index':'ccle_name'})
-    drug2smi = pd.read_csv("./data/drug_response_data/latent_nci_reconstructed_1129.csv").iloc[:, 0:-1]
+    drug2smi = pd.read_csv("./data/drug_response_data/DC_drug2smi.csv").iloc[:, 0:-1]
 
 
     dataset_obj = GenoDrugDataset(nci_data_train, cell2mut, drug2smi, cna=cell2cna, cnd=cell2cnd)
