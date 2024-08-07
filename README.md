@@ -12,7 +12,8 @@ pip install -r requirements.txt --extra-index-url https://download.pytorch.org/w
 
 - Multi GPU
 > accelerate launch --num_processes=2 --gpu_ids=0,1 distributed_G2D_Diff.py
-> Need to change batch size in the python file
+
+Need to change batch size in the python file
 
 # For pretraining condition encoder
 - ConitionEncoderPretraining.ipynb
