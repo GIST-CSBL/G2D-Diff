@@ -6,6 +6,7 @@ Official repository of the G2D-Diff
 > conda create -n g2d_diff python=3.8.10
 
 - Installation required packages
+> conda activate g2d_diff
 > pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu113
 
 # For training G2D-Diff
