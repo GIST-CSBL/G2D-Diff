@@ -1,6 +1,6 @@
 # G2D-Diff: A genotype-to-drug diffusion model for generation of tailored anti-cancer small molecules
 Official repository of the G2D-Diff: A genotype-to-drug diffusion model for generation of tailored anti-cancer small molecules. 
-Diffusion source code was adopted from the https://github.com/lucidrains/denoising-diffusion-pytorch. 
+Diffusion source code was adapted from the https://github.com/lucidrains/denoising-diffusion-pytorch. 
 
 # Environment setting (Anaconda)
 - Create virtual environment 
