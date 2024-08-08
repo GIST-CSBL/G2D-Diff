@@ -18,8 +18,7 @@ Generation with the trained condition encoder and diffusion model.
 
 # Reproducing the models
 Use the following jupyter notebooks after add the kernel.
- 
-python -m ipykernel --user --name g2d_diff
+> python -m ipykernel --user --name g2d_diff
 
 ## For training G2D-Diff
 - Single GPU
