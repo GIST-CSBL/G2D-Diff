@@ -16,7 +16,9 @@ Diffusion source code was adapted from the https://github.com/lucidrains/denoisi
 # Generation Tutorial
 - GenerationTutorial.ipynb
  
-Generation with the trained condition encoder and diffusion model. Check the comments in the notebook
+Generation with the trained condition encoder and diffusion model. 
+ 
+Check the comments in the notebook
 
 # Reproducing the models
 Use the following jupyter notebooks after add the kernel. 
