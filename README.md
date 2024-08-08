@@ -21,7 +21,7 @@ Generation with the trained condition encoder and diffusion model.
 Check the comments in the notebook
 
 # Reproducing the models
-Use the following jupyter notebooks after add the kernel. 
+Use the following jupyter notebooks after adding the kernel. 
  
 Check the comments in the notebook
 > python -m ipykernel --user --name g2d_diff
