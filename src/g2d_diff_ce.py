@@ -163,7 +163,7 @@ class Condition_Encoder(nn.Module):
             # Extract response class vector
             out = _fg[:, -1, :].contiguous().view(batch_len, -1)
             attention = _att[:, :, -1, :].squeeze().detach().cpu()
-            return _ge, out, attention, whole_att_list
+            return _fg, out, attention, whole_att_list
     
     
     

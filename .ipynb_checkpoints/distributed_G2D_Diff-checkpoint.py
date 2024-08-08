@@ -71,6 +71,8 @@ def main():
     ##############
   
     accelerate.utils.set_seed(42)
+
+    ## Change here to change batchsize (means batch size for each GPU. If 4 gpu, batch size is 128 * 4 = 512)
     batch_size = 128
     max_epochs = 5000
     
@@ -125,16 +127,18 @@ def main():
         
         
         accelerator.wait_for_everyone()
-        #if accelerator.is_main_process:
+
         total_loss.append(np.mean(epoch_loss))
         print("Epoch: ", epoch, " Loss: ", np.mean(epoch_loss))
 
         unwrapped_model = accelerator.unwrap_model(diff_model)
+
+        # Use here to save
 #         accelerator.save({
 #                 'diffusion_state_dict': unwrapped_model.state_dict(),
 #                 'solver_state_dict': optimizer.state_dict(),
 #                 'loss_traj': total_loss
-#             }, "../DAS_DATA/diffusion_models/1229_512_adanorm_6layers_%d.ckpt"%(epoch))
+#             }, "diffusion_models/1229_512_adanorm_6layers_%d.ckpt"%(epoch))
         
        
        
