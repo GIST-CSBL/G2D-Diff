@@ -1,4 +1,4 @@
-# G2D-Diff
+# G2D-Diff: A genotype-to-drug diffusion model for generation of tailored anti-cancer small molecules
 Official repository of the G2D-Diff: A genotype-to-drug diffusion model for generation of tailored anti-cancer small molecules. 
 Diffusion source code was adopted from the https://github.com/lucidrains/denoising-diffusion-pytorch. 
 
@@ -12,21 +12,32 @@ Diffusion source code was adopted from the https://github.com/lucidrains/denoisi
 - Install required packages
 > pip install -r requirement.txt --extra-index-url https://download.pytorch.org/whl/cu113
 
-# For training G2D-Diff
+# Generation Tutorial
+- GenerationTutorial.ipynb
+Generation with the trained condition encoder and diffusion model.
+
+# Reproducing the models
+Use the following jupyter notebooks after add the kernel
+python -m ipykernel --user --name g2d_diff
+
+## For training G2D-Diff
 - Single GPU
 > accelerate launch --num_processes=1 --gpu_ids=0 distributed_G2D_Diff.py
 
-- Multi GPU
+- Multiple GPUs (Check available GPU IDs)
 > accelerate launch --num_processes=2 --gpu_ids=0,1 distributed_G2D_Diff.py
 
 Check the hyperparameters in the python file (distributed_G2D_Diff.py)
 
-# For pretraining condition encoder
+## For pretraining condition encoder
 - ConitionEncoderPretraining.ipynb
 
-# For training G2D-Pred
+## For training G2D-Pred
 - G2DPredTraining.ipynb
 
-# Generation Tutorial
-- GenerationTutorial.ipynb
+
+
+
+
+
 
