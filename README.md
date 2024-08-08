@@ -17,7 +17,8 @@ Diffusion source code was adopted from the https://github.com/lucidrains/denoisi
 Generation with the trained condition encoder and diffusion model.
 
 # Reproducing the models
-Use the following jupyter notebooks after add the kernel
+Use the following jupyter notebooks after add the kernel.
+ 
 python -m ipykernel --user --name g2d_diff
 
 ## For training G2D-Diff
