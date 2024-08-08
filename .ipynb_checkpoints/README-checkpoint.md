@@ -19,7 +19,7 @@ Diffusion source code was adopted from the https://github.com/lucidrains/denoisi
 - Multi GPU
 > accelerate launch --num_processes=2 --gpu_ids=0,1 distributed_G2D_Diff.py
 
-Need to change batch size in the python file
+Check the hyperparameters in the python file (distributed_G2D_Diff.py)
 
 # For pretraining condition encoder
 - ConitionEncoderPretraining.ipynb
