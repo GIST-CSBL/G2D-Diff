@@ -29,7 +29,7 @@ Use the following jupyter notebooks after add the kernel.
 
 Check the hyperparameters in the python file (distributed_G2D_Diff.py)
 
-## For pretraining condition encoder
+## For training condition encoder
 - ConitionEncoderPretraining.ipynb
 
 ## For training G2D-Pred
