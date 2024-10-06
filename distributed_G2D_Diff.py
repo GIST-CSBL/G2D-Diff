@@ -74,7 +74,7 @@ def main():
 
     ## Change here to change batchsize (means batch size for each GPU. If 4 gpu, batch size is 128 * 4 = 512)
     batch_size = 128
-    max_epochs = 5000
+    max_epochs = 2475
     
     accelerator = Accelerator()    
     device = accelerator.device
@@ -133,13 +133,13 @@ def main():
 
         unwrapped_model = accelerator.unwrap_model(diff_model)
 
-        # Use here to save
-#         accelerator.save({
-#                 'diffusion_state_dict': unwrapped_model.state_dict(),
-#                 'solver_state_dict': optimizer.state_dict(),
-#                 'loss_traj': total_loss
-#             }, "diffusion_models/1229_512_adanorm_6layers_%d.ckpt"%(epoch))
-        
+    #Use here to save
+    # accelerator.save({
+    #         'diffusion_state_dict': unwrapped_model.state_dict(),
+    #         'solver_state_dict': optimizer.state_dict(),
+    #         'loss_traj': total_loss
+    #     }, "diffusion_models/1229_512_adanorm_6layers_%d.ckpt"%(epoch))
+    
        
        
 
