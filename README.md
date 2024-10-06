@@ -10,10 +10,11 @@ Diffusion source code was adapted from the https://github.com/lucidrains/denoisi
 
 All software dependencies are listed in "requirement.txt" text file.
 
-Contact: 
+Contact Info: 
+
 hjnam@gist.ac.kr
+
 hyunhokim@gm.gist.ac.kr
-hyunho.kim@kitox.re.kr
 
 # Environment setting (Anaconda)
 - Create virtual environment 
