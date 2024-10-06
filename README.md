@@ -3,6 +3,8 @@ Official repository of the G2D-Diff: A genotype-to-drug diffusion model for gene
  
 Diffusion source code was adapted from the https://github.com/lucidrains/denoising-diffusion-pytorch. 
 
+All software dependencies are listed in "requirement.txt" text file.
+
 # Environment setting (Anaconda)
 - Create virtual environment 
 > conda create -n g2d_diff python=3.8.10
@@ -12,6 +14,8 @@ Diffusion source code was adapted from the https://github.com/lucidrains/denoisi
  
 - Install required packages
 > pip install -r requirement.txt --extra-index-url https://download.pytorch.org/whl/cu113
+
+The installation typically takes around 10 minutes, but the time may vary depending on the environment.
 
 # Generation Tutorial
 - GenerationTutorial.ipynb
