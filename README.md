@@ -20,14 +20,14 @@ The installation typically takes around 10 minutes, but the time may vary depend
 # Generation Tutorial
 - GenerationTutorial.ipynb
  
-Generation with the trained condition encoder and diffusion model. 
- 
-Check the comments in the notebook
+Generation with the trained condition encoder and diffusion model.
+
+It will take about 15 minutes, but the time may vary depending on the environment.
+
+Check the comments in the notebook for further information about the source code.
 
 # Reproducing the models
 Use the following jupyter notebooks after adding the kernel. 
- 
-Check the comments in the notebook
 > python -m ipykernel --user --name g2d_diff
 
 ## For training G2D-Diff
@@ -37,14 +37,23 @@ Check the comments in the notebook
 - Multiple GPUs (Check available GPU IDs)
 > accelerate launch --num_processes=2 --gpu_ids=0,1 distributed_G2D_Diff.py
 
-Check the comments in the python file (distributed_G2D_Diff.py)
+It will take about a week with four gpus, but the time may vary depending on the environment.
+
+Check the comments in the python file for further information about the source code (distributed_G2D_Diff.py)
 
 ## For training condition encoder
 - ConitionEncoderPretraining.ipynb
+
+It will take a few hours, but the time may vary depending on the environment.
+
+Check the comments in the notebook for further information about the source code.
  
 ## For training G2D-Pred
 - G2DPredTraining.ipynb
+  
+It will take about one or two days, but the time may vary depending on the environment.
 
+Check the comments in the notebook for further information about the source code.
 
 
 
