@@ -10,6 +10,11 @@ Diffusion source code was adapted from the https://github.com/lucidrains/denoisi
 
 All software dependencies are listed in "requirement.txt" text file.
 
+Contact: 
+hjnam@gist.ac.kr
+hyunhokim@gm.gist.ac.kr
+hyunho.kim@kitox.re.kr
+
 # Environment setting (Anaconda)
 - Create virtual environment 
 > conda create -n g2d_diff python=3.8.10
