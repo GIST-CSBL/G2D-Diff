@@ -33,7 +33,7 @@ The installation typically takes around 10 minutes, but the time may vary depend
  
 Generation with the trained condition encoder and diffusion model.
 
-It will take about 15 minutes, but the time may vary depending on the environment.
+It will take about 15 minutes for a single genotype input (ex. a cell line), but the time may vary depending on the environment.
 
 Check the comments in the notebook for further information about the source code.
 
