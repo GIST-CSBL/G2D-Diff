@@ -37,7 +37,7 @@ Generation with the trained condition encoder and diffusion model.
 
 It will take about 15 minutes for a single genotype input (ex. a cell line), but the time may vary depending on the environment.
 
-Check the comments in the notebook for further information about the source code (ex. saving the checkpoints).
+Check the comments in the notebook for further information about the source code (ex. saving checkpoints. You may create the directory for saving.).
 
 # Reproducing the models
 Use the following jupyter notebooks after adding the kernel. 
@@ -50,17 +50,17 @@ Use the following jupyter notebooks after adding the kernel.
 - Multiple GPUs (Check available GPU IDs)
 > accelerate launch --num_processes=2 --gpu_ids=0,1 distributed_G2D_Diff.py
 
-Check the comments in the python file for further information about the source code (distributed_G2D_Diff.py, ex. saving the checkpoints).
+Check the comments in the python file for further information about the source code (distributed_G2D_Diff.py, ex. saving checkpoints).
 
 ## For training condition encoder
 - ConitionEncoderPretraining.ipynb
 
-Check the comments in the notebook for further information about the source code (ex. saving the checkpoints).
+Check the comments in the notebook for further information about the source code (ex. saving checkpoints).
  
 ## For training G2D-Pred
 - G2DPredTraining.ipynb
 
-Check the comments in the notebook for further information about the source code (ex. saving the checkpoints).
+Check the comments in the notebook for further information about the source code (ex. saving checkpoints).
 
 
 
