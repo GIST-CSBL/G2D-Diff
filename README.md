@@ -8,6 +8,7 @@ We present Genotype-to-Drug Diffusion (G2D-Diff), a generative artificial intell
 ## Information
 Official repository of the G2D-Diff: A genotype-to-drug diffusion model for generation of tailored anti-cancer small molecules.  
 Diffusion source code was adapted from the https://github.com/lucidrains/denoising-diffusion-pytorch.   
+
 All software dependencies are listed in "requirement.txt" text file.
 
 Contact Info:   
