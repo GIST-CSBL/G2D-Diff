@@ -6,16 +6,12 @@ We present Genotype-to-Drug Diffusion (G2D-Diff), a generative artificial intell
 
 
 ## Information
-Official repository of the G2D-Diff: A genotype-to-drug diffusion model for generation of tailored anti-cancer small molecules.
- 
-Diffusion source code was adapted from the https://github.com/lucidrains/denoising-diffusion-pytorch. 
-
+Official repository of the G2D-Diff: A genotype-to-drug diffusion model for generation of tailored anti-cancer small molecules.  
+Diffusion source code was adapted from the https://github.com/lucidrains/denoising-diffusion-pytorch.   
 All software dependencies are listed in "requirement.txt" text file.
 
-Contact Info: 
-
-hjnam@gist.ac.kr
-
+Contact Info:   
+hjnam@gist.ac.kr  
 hyunhokim@gm.gist.ac.kr
 
 # Environment setting (Anaconda)
@@ -37,8 +33,8 @@ Generation with the trained condition encoder and diffusion model.
 
 It will take about 15 minutes for a single genotype input (ex. a cell line), but the time may vary depending on the environment.
 
-Check the comments in the notebook for further information about the source code 
-   (ex. saving checkpoints. You may need to create the directory for saving.).
+Check the comments in the notebook for further information about the source code  
+(ex. saving checkpoints. You may need to create the directory for saving.).
 
 # Reproducing the models
 Use the following jupyter notebooks after adding the kernel. 
