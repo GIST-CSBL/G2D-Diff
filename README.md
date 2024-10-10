@@ -49,11 +49,11 @@ Use the following jupyter notebooks after adding the kernel.
 Check the comments in the python file for further information about the source code (distributed_G2D_Diff.py, ex. saving checkpoints).
 
 ## For training condition encoder
-- ConitionEncoderPretraining.ipynb
+- ConitionEncoderPretraining.ipynb  
 Check the comments in the notebook for further information about the source code (ex. saving checkpoints).
  
 ## For training G2D-Pred
-- G2DPredTraining.ipynb
+- G2DPredTraining.ipynb  
 Check the comments in the notebook for further information about the source code (ex. saving checkpoints).
 
 
