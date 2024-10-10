@@ -30,12 +30,10 @@ The installation typically takes around 10 minutes, but the time may vary depend
 # Generation Tutorial
 - GenerationTutorial.ipynb
  
-Generation with the trained condition encoder and diffusion model.
-
-It will take about 15 minutes for a single genotype input (ex. a cell line), but the time may vary depending on the environment.
-
-Check the comments in the notebook for further information about the source code  
-(ex. saving checkpoints. You may need to create the directory for saving.).
+Generation with the trained condition encoder and diffusion model.  
+It will take about 15 minutes for a single genotype input (ex. a cell line), but the time may vary depending on the environment.  
+Check the comments in the notebook for further information about the source code.  
+(ex. saving checkpoints. You may need to create the directory for saving.)
 
 # Reproducing the models
 Use the following jupyter notebooks after adding the kernel. 
@@ -52,12 +50,10 @@ Check the comments in the python file for further information about the source c
 
 ## For training condition encoder
 - ConitionEncoderPretraining.ipynb
-
 Check the comments in the notebook for further information about the source code (ex. saving checkpoints).
  
 ## For training G2D-Pred
 - G2DPredTraining.ipynb
-
 Check the comments in the notebook for further information about the source code (ex. saving checkpoints).
 
 
