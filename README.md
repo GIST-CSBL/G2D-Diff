@@ -38,7 +38,7 @@ Generation with the trained condition encoder and diffusion model.
 It will take about 15 minutes for a single genotype input (ex. a cell line), but the time may vary depending on the environment.
 
 Check the comments in the notebook for further information about the source code 
-(ex. saving checkpoints. You may need to create the directory for saving.).
+   (ex. saving checkpoints. You may need to create the directory for saving.).
 
 # Reproducing the models
 Use the following jupyter notebooks after adding the kernel. 
