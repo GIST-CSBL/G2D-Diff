@@ -15,7 +15,7 @@ We present Genotype-to-Drug Diffusion (G2D-Diff), a generative artificial intell
 ![g2d_diff_fig](https://github.com/user-attachments/assets/8feec49b-dc43-4c9b-8e73-2f314524c893)
 
 
-# Environment setting (Anaconda)
+# Environment setting (Ubuntu and Anaconda)
 - Create virtual environment 
 > conda create -n g2d_diff python=3.8.10
 
