@@ -34,7 +34,7 @@ Generation with the trained condition encoder and diffusion model.
 It will take about 15 minutes for a single genotype input (ex. a cell line), but the time may vary depending on the environment.  
 
 Check the comments in the notebook for further information about the source code.  
-(ex. saving checkpoints. You may need to create the directory for saving.)
+(ex. saving checkpoints. You may need to create a directory for saving.)
 
 # Reproducing the models
 Use the following jupyter notebooks after adding the kernel. 
@@ -42,7 +42,7 @@ Use the following jupyter notebooks after adding the kernel.
 
 
 For all .py file and jupyter notebooks for reproducing the models, check the comments for further information.  
-(ex. saving checkpoints. You may need to create the directory for saving.)
+(ex. saving checkpoints. You may need to create a directory for saving.)
 
 ## For training G2D-Diff
 - Single GPU
