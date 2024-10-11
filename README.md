@@ -40,6 +40,10 @@ Check the comments in the notebook for further information about the source code
 Use the following jupyter notebooks after adding the kernel. 
 > python -m ipykernel --user --name g2d_diff
 
+
+For all .py file and jupyter notebooks  for reproducing the models, check the comments in the notebook for further information about the source code.  
+(ex. saving checkpoints. You may need to create the directory for saving.)
+
 ## For training G2D-Diff
 - Single GPU
 > accelerate launch --num_processes=1 --gpu_ids=0 distributed_G2D_Diff.py
@@ -47,18 +51,12 @@ Use the following jupyter notebooks after adding the kernel.
 - Multiple GPUs (Check available GPU IDs)
 > accelerate launch --num_processes=2 --gpu_ids=0,1 distributed_G2D_Diff.py
 
-Check the comments in the python file for further information about the source code (distributed_G2D_Diff.py, ex. saving checkpoints).
-
 ## For training condition encoder
 - ConitionEncoderPretraining.ipynb
-- 
-Check the comments in the notebook for further information about the source code (ex. saving checkpoints).
+
  
 ## For training G2D-Pred
 - G2DPredTraining.ipynb
-- 
-Check the comments in the notebook for further information about the source code (ex. saving checkpoints).
-
 
 
 
