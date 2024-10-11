@@ -41,7 +41,7 @@ Use the following jupyter notebooks after adding the kernel.
 > python -m ipykernel --user --name g2d_diff
 
 
-For all .py file and jupyter notebooks  for reproducing the models, check the comments in the notebook for further information about the source code.  
+For all .py file and jupyter notebooks  for reproducing the models, check the comments in the notebook about the source code.  
 (ex. saving checkpoints. You may need to create the directory for saving.)
 
 ## For training G2D-Diff
