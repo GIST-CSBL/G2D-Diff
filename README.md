@@ -32,6 +32,7 @@ The installation typically takes around 10 minutes, but the time may vary depend
  
 Generation with the trained condition encoder and diffusion model.  
 It will take about 15 minutes for a single genotype input (ex. a cell line), but the time may vary depending on the environment.  
+
 Check the comments in the notebook for further information about the source code.  
 (ex. saving checkpoints. You may need to create the directory for saving.)
 
@@ -49,11 +50,13 @@ Use the following jupyter notebooks after adding the kernel.
 Check the comments in the python file for further information about the source code (distributed_G2D_Diff.py, ex. saving checkpoints).
 
 ## For training condition encoder
-- ConitionEncoderPretraining.ipynb  
+- ConitionEncoderPretraining.ipynb
+- 
 Check the comments in the notebook for further information about the source code (ex. saving checkpoints).
  
 ## For training G2D-Pred
-- G2DPredTraining.ipynb  
+- G2DPredTraining.ipynb
+- 
 Check the comments in the notebook for further information about the source code (ex. saving checkpoints).
 
 
