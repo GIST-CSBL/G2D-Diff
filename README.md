@@ -1,11 +1,5 @@
 # G2D-Diff: A genotype-to-drug diffusion model for generation of tailored anti-cancer small molecules
-### Abstract
-We present Genotype-to-Drug Diffusion (G2D-Diff), a generative artificial intelligence (AI) approach for creating small molecule-based drug structures tailored to specific cancer genotypes. G2D-Diff demonstrates exceptional performance in generating diverse, drug-like compounds that meet desired efficacy conditions for a given genotype. The model outperforms existing methods in diversity, feasibility, and condition fitness. G2D-Diff learns directly from drug response data distributions, ensuring reliable candidate generation without separate predictors. Its attention mechanism provides insights into potential cancer targets and pathways, enhancing interpretability. In triple-negative breast cancer case studies, G2D-Diff generated plausible hit-like candidates by focusing on relevant pathways. By combining realistic hit-like molecule generation with relevant pathway suggestions for specific genotypes, G2D-Diff represents a significant advance in AI-guided, personalized drug discovery. This approach has the potential to accelerate drug development for challenging cancers by streamlining hit identification, and lead optimization. 
-
-![g2d_diff_fig](https://github.com/user-attachments/assets/8feec49b-dc43-4c9b-8e73-2f314524c893)
-
-
-### Information
+## Information
 Official repository of the G2D-Diff: A genotype-to-drug diffusion model for generation of tailored anti-cancer small molecules.  
 
 Diffusion source code was adapted from the https://github.com/lucidrains/denoising-diffusion-pytorch.   
@@ -14,6 +8,12 @@ All software dependencies are listed in "requirement.txt" text file.
 Contact Info:   
 hjnam@gist.ac.kr  
 hyunhokim@gm.gist.ac.kr
+
+### Abstract
+We present Genotype-to-Drug Diffusion (G2D-Diff), a generative artificial intelligence (AI) approach for creating small molecule-based drug structures tailored to specific cancer genotypes. G2D-Diff demonstrates exceptional performance in generating diverse, drug-like compounds that meet desired efficacy conditions for a given genotype. The model outperforms existing methods in diversity, feasibility, and condition fitness. G2D-Diff learns directly from drug response data distributions, ensuring reliable candidate generation without separate predictors. Its attention mechanism provides insights into potential cancer targets and pathways, enhancing interpretability. In triple-negative breast cancer case studies, G2D-Diff generated plausible hit-like candidates by focusing on relevant pathways. By combining realistic hit-like molecule generation with relevant pathway suggestions for specific genotypes, G2D-Diff represents a significant advance in AI-guided, personalized drug discovery. This approach has the potential to accelerate drug development for challenging cancers by streamlining hit identification, and lead optimization. 
+
+![g2d_diff_fig](https://github.com/user-attachments/assets/8feec49b-dc43-4c9b-8e73-2f314524c893)
+
 
 # Environment setting (Anaconda)
 - Create virtual environment 
