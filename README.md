@@ -27,7 +27,7 @@ We present Genotype-to-Drug Diffusion (G2D-Diff), a generative artificial intell
 
 The installation typically takes around 10 minutes, but the time may vary depending on the environment.
 
-# Generation Tutorial
+# Generation tutorial
 - GenerationTutorial.ipynb
  
 Generation with the trained condition encoder and diffusion model.  
