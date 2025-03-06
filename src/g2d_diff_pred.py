@@ -147,7 +147,7 @@ class NCIPREDICTOR(nn.Module):
         pret_ckpt = torch.load("./data/model_ckpts/seed_44_0914_52.pth", map_location=device)
         self.condition_encoder.load_state_dict(pret_ckpt['condition_state_dict'], strict=False)
 
-        # ONLY CLS token embedding trained in the condition encoder
+        # ONLY CLS token embedding is trained in the condition encoder
         for n, p in self.condition_encoder.named_parameters():
             if n == 'cls_embedding.weight':
                 p.requires_grad = True
