@@ -58,7 +58,9 @@ For all .py file and jupyter notebooks for reproducing the models, check the com
 ### For training G2D-Pred
 - G2DPredTraining.ipynb
 
+Newly generated model checkpoints of G2DPred_From_Scratch will be uploaded soon. 
 
 
 
 
+Last modified: 2025-04-15
