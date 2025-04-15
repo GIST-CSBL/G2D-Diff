@@ -68,10 +68,10 @@ class RES_Condition_Encoder(nn.Module):
         self.device = device
         
         self.gene_embedding = nn.Embedding(num_of_genes, gene_emb_size)
-        self.dcls_embedding = nn.Embedding(num_of_dcls, gene_emb_size)
+        self.dcls_embedding = nn.Embedding(num_of_dcls, gene_emb_size) # Not used in this model. 
         self.muts_embedding = nn.Embedding(num_of_genotypes, gene_emb_size)
         
-        self.cls_embedding = nn.Embedding(1, gene_emb_size)
+        self.cls_embedding = nn.Embedding(1, gene_emb_size) # CLS token embedding
         self.mut2signal = Mut2Signal(emb_size = gene_emb_size)
         self.T_neigh = TFblock(d_model = gene_emb_size, num_heads = 8, d_head = (gene_emb_size // 8))
         self.T_whole = TFblock(d_model = gene_emb_size, num_heads = 8, d_head = (gene_emb_size // 8)) 
@@ -100,8 +100,9 @@ class RES_Condition_Encoder(nn.Module):
         gene_list = np.array([x for x in range(self.num_of_genes)])
         _genes = self.gene_embedding(torch.IntTensor(gene_list).to(self.device)).unsqueeze(0).expand(batch_len,-1, -1)
         
+        # CLS Token independent to the response class
         cls_list = np.array([0 for _ in range(batch_len)])
-        _class = self.cls_embedding(torch.IntTensor(cls_list).to(self.device)).view(batch_len, 1, -1)
+        _class = self.cls_embedding(torch.IntTensor(cls_list).to(self.device)).view(batch_len, 1, -1) 
         revised_adj = self.get_new_adj(self.gene_adj)
 
         _gene_add = _genes
@@ -119,7 +120,7 @@ class RES_Condition_Encoder(nn.Module):
             _gene_add = _gene_add + (mut_emb_mask * mut_emb_affn)
             
         ########################################## PROPOGATION BEGIN ##########################################
-        # Concat response class vector
+        # Concat general CLS Token
         gsj_cat = torch.cat([_gene_add, _class], axis = 1)
         # Propogate through NeST siblings
         _gs, _ = self.T_neigh(x = gsj_cat, mask = revised_adj)
@@ -145,6 +146,8 @@ class NCIPREDICTOR(nn.Module):
         print("Load pretrained cond_encoder ...") 
         pret_ckpt = torch.load("./data/model_ckpts/seed_44_0914_52.pth", map_location=device)
         self.condition_encoder.load_state_dict(pret_ckpt['condition_state_dict'], strict=False)
+
+        # ONLY CLS token embedding is trained in the condition encoder
         for n, p in self.condition_encoder.named_parameters():
             if n == 'cls_embedding.weight':
                 p.requires_grad = True
