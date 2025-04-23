@@ -1,5 +1,6 @@
 # G2D-Diff: A genotype-to-drug diffusion model for generation of tailored anti-cancer small molecules
 ## Information
+[![DOI](https://zenodo.org/badge/832038278.svg)](https://doi.org/10.5281/zenodo.15265966)
 
 Official repository of the G2D-Diff: A genotype-to-drug diffusion model for generation of tailored anti-cancer small molecules.  
 
