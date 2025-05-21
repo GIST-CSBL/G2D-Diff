@@ -74,6 +74,6 @@ All source code in this repository is licensed under the MIT License - see the [
 The trained model parameters, weights, and any data generated using our code are provided under the Creative Commons Attribution-NonCommercial 4.0 International License - see the [DATA_LICENSE.md](DATA_LICENSE.md) file for details. This restricts the use of these materials to non-commercial purposes only.
 
 ### Attribution
-Parts of our source code was refered Phil Wang's repository ([URL](https://github.com/lucidrains/denoising-diffusion-pytorch)), which is also under the MIT License.
+Parts of our source code was adapted from Phil Wang's repository ([URL](https://github.com/lucidrains/denoising-diffusion-pytorch)), which is also under the MIT License.
 
 Last modified: 2025-04-15
