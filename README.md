@@ -67,11 +67,11 @@ Newly generated model checkpoints of G2DPred_From_Scratch will be uploaded soon.
 
 This repository contains materials under two different licenses:
 
-### Code License (MIT)
-All source code in this repository is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. This includes all Python scripts, configuration files, and utility functions.
+### Code License (PolyForm Noncommercial License 1.0.0)
+All source code in this repository is licensed under the PolyForm Noncommercial License 1.0.0 License - see the [LICENSE](LICENSE) file for details. This includes all Python scripts, configuration files, and utility functions.
 
-### Data & Model License (CC BY-NC 4.0)
-The trained model parameters, weights, and any data generated using our code are provided under the Creative Commons Attribution-NonCommercial 4.0 International License - see the [DATA_LICENSE.md](DATA_LICENSE.md) file for details. This restricts the use of these materials to non-commercial purposes only.
+### Data & Model License (CC BY-NC-SA 4.0)
+The trained model parameters, weights, and any data generated using our code are provided under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License - see the [DATA_LICENSE.md](DATA_LICENSE.md) file for details. This restricts the use of these materials to non-commercial purposes only.
 
 ### Attribution
 Parts of our source code was adapted from Phil Wang's repository ([URL](https://github.com/lucidrains/denoising-diffusion-pytorch)), which is also under the MIT License.
