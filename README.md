@@ -67,13 +67,19 @@ Newly generated model checkpoints of G2DPred_From_Scratch will be uploaded soon.
 
 This repository contains materials under two different licenses:
 
-### Code License (PolyForm Noncommercial License 1.0.0)
-All source code in this repository is licensed under the PolyForm Noncommercial License 1.0.0 License - see the [LICENSE](LICENSE) file for details. This includes all Python scripts, configuration files, and utility functions.
+### 🔸 Code License (PolyForm Noncommercial License 1.0.0)
+All source code in this repository is licensed under the [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/), which permits use for non-commercial purposes only.  
+See the [LICENSE](LICENSE) file for full terms.
 
-### Data & Model License (CC BY-NC-SA 4.0)
-The trained model parameters, weights, and any data generated using our code are provided under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License - see the [DATA_LICENSE.md](DATA_LICENSE.md) file for details. This restricts the use of these materials to non-commercial purposes only.
+### 🔸 Data & Model License (CC BY-NC-SA 4.0)
+The trained model weights and any generated data are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).  
+See the [DATA_LICENSE.md](DATA_LICENSE.md) for details.
 
-### Attribution
-Parts of our source code was adapted from Phil Wang's repository ([URL](https://github.com/lucidrains/denoising-diffusion-pytorch)), which is also under the MIT License.
+---
 
-Last modified: 2025-04-15
+### 🔸 Third-party Notice (MIT License)
+Parts of this codebase are adapted from [Phil Wang's denoising-diffusion-pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch), which is licensed under the MIT License.  
+The relevant files retain proper attribution and include the original license text as required.
+
+
+Last modified: 2025-05-22
