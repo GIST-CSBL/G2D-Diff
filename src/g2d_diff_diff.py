@@ -1,3 +1,8 @@
+# This file contains modifications of code from:
+# Phil Wang's denoising-diffusion-pytorch (MIT License)
+# https://github.com/lucidrains/denoising-diffusion-pytorch
+# The modified portions and all other contents are licensed under
+# the PolyForm Noncommercial License 1.0.0.
 
 import torch
 import pandas as pd
