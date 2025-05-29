@@ -29,20 +29,21 @@ Despite advances in precision oncology, developing effective cancer therapeutics
 The installation typically takes around 10 minutes, but the time may vary depending on the environment.
 
 # IMPORTANT!
-You can download all processed datasets, model checkpoints in this google drive link. 
-https://drive.google.com/file/d/1qk4Wwkqvwas7kpjcuFKbSCT8aPaP8RKI/view?usp=drive_link 
+You can download all processed datasets, model checkpoints in this google drive link.
 
-You must unpack this zip file in the repository folder. 
+https://drive.google.com/file/d/1qk4Wwkqvwas7kpjcuFKbSCT8aPaP8RKI/view?usp=drive_link
 
-G2D-Diff Folder 
+You must unpack this zip file in the repository folder.
 
-  -- data <- Need to download from the link above. 
+G2D-Diff Folder
+
+  -- data <- Need to download from the link above.
   
-  -- src 
+  -- src
   
-  -- ... 
+  -- ...
   
-If you have any problem in downloading the data and model checkpoints, feel free to ask me by email (hyunho.kim@kitox.re.kr). 
+If you have any problem in downloading the data and model checkpoints, feel free to ask me by email (hyunho.kim@kitox.re.kr).
 
 
 # Generation tutorial
