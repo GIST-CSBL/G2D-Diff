@@ -31,17 +31,17 @@ The installation typically takes around 10 minutes, but the time may vary depend
 # IMPORTANT!
 You can download all processed datasets, model checkpoints in this google drive link.
 
+https://drive.google.com/file/d/1qk4Wwkqvwas7kpjcuFKbSCT8aPaP8RKI/view?usp=drive_link
+
 You must unpack this zip file in the repository folder.
 
 G2D-Diff Folder
 
-  -- data <-- Need to download from the link below
+  -- data <-- Need to download from the link above.
   
   -- src
   
   -- ...
-
-https://drive.google.com/file/d/1qk4Wwkqvwas7kpjcuFKbSCT8aPaP8RKI/view?usp=drive_link
 
 # Generation tutorial
 - GenerationTutorial.ipynb
