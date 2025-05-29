@@ -28,6 +28,15 @@ We present Genotype-to-Drug Diffusion (G2D-Diff), a generative artificial intell
 
 The installation typically takes around 10 minutes, but the time may vary depending on the environment.
 
+# IMPORTANT!
+You can download all processed datasets, model checkpoints in this google drive link.
+You must unpack this zip file in the repository folder.
+G2D-Diff 
+  - data <-- Need to download from the link below
+  - src
+  - ...
+https://drive.google.com/file/d/1qk4Wwkqvwas7kpjcuFKbSCT8aPaP8RKI/view?usp=drive_link
+
 # Generation tutorial
 - GenerationTutorial.ipynb
  
@@ -60,7 +69,7 @@ For all .py file and jupyter notebooks for reproducing the models, check the com
 - G2DPredTraining.ipynb
 - G2DPredTrainingFromScratch.ipynb
 
-Newly generated model checkpoints of G2DPred_From_Scratch will be uploaded soon. 
+
 
 
 ## License
