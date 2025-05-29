@@ -43,6 +43,7 @@ G2D-Diff Folder
   
   -- ...
 
+If you have any problem in downloading the data and model checkpoints, feel free to ask me by email (hyunho.kim@kitox.re.kr)
 # Generation tutorial
 - GenerationTutorial.ipynb
  
