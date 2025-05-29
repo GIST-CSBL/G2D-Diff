@@ -33,11 +33,17 @@ You can download all processed datasets, model checkpoints in this google drive 
 https://drive.google.com/file/d/1qk4Wwkqvwas7kpjcuFKbSCT8aPaP8RKI/view?usp=drive_link 
 
 You must unpack this zip file in the repository folder. 
+
 G2D-Diff Folder 
+
   -- data <- Need to download from the link above. 
+  
   -- src 
+  
   -- ... 
+  
 If you have any problem in downloading the data and model checkpoints, feel free to ask me by email (hyunho.kim@kitox.re.kr). 
+
 
 # Generation tutorial
 - GenerationTutorial.ipynb
