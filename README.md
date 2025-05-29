@@ -33,7 +33,8 @@ You can download all processed datasets, model checkpoints in this google drive 
 
 You must unpack this zip file in the repository folder.
 
-G2D-Diff 
+G2D-Diff Folder
+
   -- data <-- Need to download from the link below
   
   -- src
