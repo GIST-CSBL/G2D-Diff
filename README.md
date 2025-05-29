@@ -83,7 +83,7 @@ See the [LICENSE](LICENSE) file for full terms.
 
 ### Data & Model License (CC BY-NC-SA 4.0)
 The trained model weights and any generated data are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).  
-See the [DATA_LICENSE.md](DATA_LICENSE.md) for details.
+See the [DATA_LICENSE](DATA_LICENSE.md) for details.
 
 ---
 
