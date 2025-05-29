@@ -35,7 +35,9 @@ You must unpack this zip file in the repository folder.
 
 G2D-Diff 
   -- data <-- Need to download from the link below
+  
   -- src
+  
   -- ...
 
 https://drive.google.com/file/d/1qk4Wwkqvwas7kpjcuFKbSCT8aPaP8RKI/view?usp=drive_link
