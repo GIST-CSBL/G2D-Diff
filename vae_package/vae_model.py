@@ -410,8 +410,8 @@ class RNNVAE(VAEShell):
                              self.params['dropout'], self.tgt_len, self.params['teacher_force'],
                              self.device)
                              #### previously, tgt_length value was hard-coded to 125 here.
-        generator = Generator(self.params['d_model'], self.vocab_size)
-        src_embed = Embeddings(self.params['d_model'], self.vocab_size)
+        generator = Generator(self.params['d_model'], self.vo.vocab_size)
+        src_embed = Embeddings(self.params['d_model'], self.vo.vocab_size)
         self.model = RNNEncoderDecoder(encoder, decoder, src_embed, generator, self.params)
         for p in self.model.parameters():
             if p.dim() > 1:
